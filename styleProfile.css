@@ -1,0 +1,70 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    display: flex;
+    max-width: 1100px;
+    margin: 50px auto;
+    box-shadow: 0 9px 50px rgba(0, 0, 0, 0.2);
+  }
+  .sidebar {
+    background-color: #003366;
+    color: white;
+    width: 27%;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .sidebar img {
+    border-radius: 250%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+  }
+  .section-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    font-family: cursive;
+  }
+  .sidebar .contact-info {
+    font-family: cursive;
+  }
+  .sidebar .contact-info a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+  }
+  .content {
+    background-color: white;
+    width: 70%;
+    padding: 60px;
+    font-family: cursive;
+  }
+  .content h1 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
+  .content h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .content .work-experience {
+    margin-top: 20px;
+  }
+  .content .work-experience h3 {
+    font-size: 1.2em;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: cursive;
+  }
